@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'springrestapi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F67820CC25A04695AAF52C052950AF3D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_148EC5F9EF894229A5EA05971B1AB0F6 }}
           package: '*.jar'
